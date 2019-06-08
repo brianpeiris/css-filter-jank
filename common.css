@@ -1,0 +1,22 @@
+html, body, main {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font: bold 20pt sans-serif;
+  background: black;
+}
+main {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  background: url(background.jpg);
+}
+#info, a {
+  position: relative;
+  z-index: 1;
+}
+a, a:visited {
+  color: white;
+}
